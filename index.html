@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Imersão Dev Alura - Aula 01</title>
+  </head>
+  <body>
+    <div id="fundo-imagem"></div>
+    <!--TITULO ALURA-->
+    <header>
+      <div class="container">
+        <h1 class="page-title">Calculadora de média</h1>
+        <p class="page-subtitle">
+          Descubra qual a sua média de nota de todas as provas!
+        </p>
+        <img
+          src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+          class="page-logo"
+          alt=""
+        />
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img
+          src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+          alt=""
+          class="alura-logo"
+        />
+      </a>
+    </header>
+    <div class="inputs container">
+      <input
+        class="input"
+        type="number"
+        id="nota1"
+        name="nota1"
+        placeholder="Nota do 1 Bimestre"
+        min="0"
+        max="30"
+      />
+
+      <br />
+
+      <input
+        class="input"
+        type="number"
+        id="nota2"
+        name="nota2"
+        placeholder="Nota do 2 Bimestre"
+        min="0"
+        max="30"
+      />
+
+      <br />
+
+      <input
+        class="input"
+        type="number"
+        id="nota3"
+        name="nota3"
+        placeholder="Nota do 3 Bimestre"
+        min="0"
+        max="30"
+      />
+
+      <br />
+
+      <input
+        class="input"
+        type="number"
+        id="nota4"
+        name="nota4"
+        placeholder="Nota do 4 Bimestre"
+        min="0"
+        max="30"
+      />
+
+      <br />
+
+      <button type="submit" class="button" value="resposta" onclick="sum()">
+        Calcular
+      </button>
+
+      <h2 id="resultado" class="container"></h2>
+
+      <div id="imagens">
+        <img src="assets/bravo.png" id="bravo" class="" />
+        <img src="assets/feliz.png" id="feliz" class="" />
+      </div>
+    </div>
+  </body>
+
+  <!-- Script -->
+  <script src="main.js
+"></script>
+</html>

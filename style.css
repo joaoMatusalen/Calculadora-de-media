@@ -1,0 +1,77 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 500px;
+  color: white;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3.bp.blogspot.com%2F-yBRihh8bpUU%2FUCAPLpxEhHI%2FAAAAAAAAAzY%2FG6PaxVv3j_s%2Fs1600%2FQuadro_Negro_Simples.jpg&f=1&nofb=1');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  height: 20vh;
+  padding: 5px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 150px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+
+.input {
+  width: 12rem;
+  height: 1.25rem;
+  margin: 6.25rem;
+  border-radius: 9px;
+  border: none;
+  margin-top: -30rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.button {
+  background-color: yellow;
+  margin-top: 1.5rem;
+  height: 3rem;
+  width: 12rem;
+  border-radius: 9px;
+}
+
+.button:hover {
+  background: #eeee82;
+  transition: 0.4s;
+}
+
+#imagens img {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  margin-left: -76px;
+  margin-top: -125px;
+  visibility: hidden;
+}
+
+#imagens .show {
+  visibility: visible;
+}
