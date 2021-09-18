@@ -1,5 +1,6 @@
 
-# Calculadora de media Um projeto para aperfeiçoar meus conhecimentos nas tecnologias
+# Calculadora de media
+Um projeto para aperfeiçoar meus conhecimentos nas tecnologias
 
 <li>Html</li>  
 <li>Css</li>
